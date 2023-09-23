@@ -184,6 +184,8 @@ if it successful you should see a json payload return that looks like this:
 
 ```
 
+
+We'll need to generate AWS CLI crdits from IAM User in order to use AWS CLI
 #### Get AWS Keys 
 
 $ env | grep aws_
