@@ -177,9 +177,9 @@ if it successful you should see a json payload return that looks like this:
 
 ```json
 {
-    "UserId": "AIEA9DB6ZN52MS43EMB6V",
-    "Account": "123456789012",
-    "Arn": "arn:aws:iam::123456789012:user/kenny"
+    "UserId": "AIDA5DB2ZNDDJHENBWJHC",
+    "Account": "899918948550",
+    "Arn": "arn:aws:iam::899918948550:user/ken"
 }
 
 ```
