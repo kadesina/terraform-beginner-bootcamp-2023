@@ -8,7 +8,7 @@
     + [Shebang](#shebang)
 - [Excecution Considerations](#excecution-considerations)
     + [Linux Permissions Considerations](#linux-permissions-considerations)
-  * [Github Lifecycle (Before, Inti, Command)](#github-lifecycle--before--inti--command-)
+- [Github Lifecycle - Before, Inti, Command](#github-lifecycle---before--inti--command)
   * [Working Env Vars](#working-env-vars)
     + [env command](#env-command)
     + [Seting and Usetting Env Vars](#seting-and-usetting-env-vars)
@@ -28,6 +28,8 @@
     + [Terraform state Files](#terraform-state-files)
     + [Terraform Directory](#terraform-directory)
 - [Issues with Terraform Cloud Login and Gitpod Workpspace](#issues-with-terraform-cloud-login-and-gitpod-workpspace)
+
+
 ## Semantic Versioning :image:
 
 This project is going utiize semantic versioning for its tagging.
@@ -124,7 +126,7 @@ chmod 744 ./bin/install_terraform_cli
 
 https://en.wikipedia.org/wiki/Chmod
 
-### Github Lifecycle (Before, Inti, Command)
+## Github Lifecycle - Before, Inti, Command
 
 We need to be careful when using the Init because it will not return of we restart an existing workspace. 
 https://www.gitpod.io/docs/configure/workspaces/tasks
