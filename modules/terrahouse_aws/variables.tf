@@ -48,3 +48,8 @@ variable "content_version" {
     error_message = "Invalid value. Please provide a positive integer starting at 1 for content_version."
   }
 }
+
+variable "assets_path" {
+  description = "Path to assets folder"
+  type = string
+}
